@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap');
+img{
+    max-width: 92%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution {
+    margin: 2rem;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Outfit";
+}
+
+.attribution a {
+    color: hsl(229, 12%, 55%);
+}
+.container{
+    max-width: 625px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
+.container article :nth-child(1) img{
+    margin: 1.5rem;
+    border-radius: .8rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(212, 45%, 89%);
+}
+.container2{
+    margin-left: 1.5rem;
+    margin-right: .6rem;
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 15px;
+    font-family: "Outfit";
+    font-weight: 400;
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    color: hsl(220, 15%, 55%);
+}
+h2{
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 2rem 2rem;
+    color: hsl(218, 44%, 22%);
+}
+.attribution a:hover{
+    transition: 0.3s;
+    color: rgb(159, 125, 81);
+}
+@media (min-width: 640px){
+    .container{
+        max-width: 350px;
+        height: 80vh;
+    }
+    .container article :first-child img{
+        max-width: 400px;
+        height: 320px;
+        margin: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        margin: 0 1rem 2rem;
+    }
+    p{
+        font-size: 1.1111rem;
+    }
+}
